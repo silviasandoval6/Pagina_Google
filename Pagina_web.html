@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	    <!--Relacionamos el documento con la hoja de estilos style.css-->
+	    <link rel="stylesheet" href="style.css">
+	    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    </head>
+    <body>
+        <!--Creamos el primer elemento div para albergar nuestro primer flexbox y su correspondiente clase de estilos-->
+        <div class="flex-container1">
+            <!--Situamos los items del flexbox y los relacionamos con sus respectivas clases de estilizado-->
+            <div class="flex-item1">Sobre Google</div>
+            <div class="flex-item1">Tienda</div>
+            <div class="push">Gmail</div>
+            <div class="flex-item1">Imágenes</div>
+            <div class="a"><img src="Icono.png"></div>
+            <div class="a"><button class ="b1" type="button">Iniciar sesión</button></div>
+       </div>
+       <!--div para el segundo contenedor flexbox-->
+       <div class="flex-container2">
+        <!--ponemos las imágenes requeridas para simular la página de google, este flexbox será de tipo columna-->
+        <div><img src="google.png"></div>
+            <div class="flex-container4">
+                <!--Creamos otro div para poner una fila dentro del flexbox de tipo columna-->
+                 <div><img src="lupa.png"></div>
+                 <div><input class="c3" type="text" id="search" name="search"></div>
+                 <!--Clase específica para maquetizar correctamente este flexbox-->
+                 <div><img class ="push" src="micro.png"></div>
+           </div>
+           <div class="flex-container3">
+            <!--Ponemos los botones de búsqueda en este flexbox y relacionamos los elementos con sus correspondientes clases-->
+                  <div><button class ="b2" type="button">Buscar con Google</button></div>
+                  <div><button class ="b2" type="button">Voy a tener suerte</button></div>
+           </div>
+           <div class="flex-container5">
+            <!--Flexbox para poner los enlaces a otros idiomas-->
+                <div class="c1">Ofrecido por Google en: </div>
+                <div class="c2"><a href="Pagina_catalan.html">català</a></div>
+                <div class="c2"><a href="Pagina_catalan.html">galego</a></div>
+                <div class="c2"><a href="Pagina_catalan.html">euskera</a></div>
+           </div>
+       </div>
+       <!--Flexbox para poner el pie de página con sus elementos div y respectivas clases de estilizado-->
+       <div class="flex-container6">
+             <div>Publicidad</div>
+             <div>Empresa</div>
+             <div class="active">España</div>
+             <div>Cómo funciona la Búsqueda</div>
+             <div><img class="push2" src="icono2.png"></div>
+             <div>Emisión neutra de carbono desde el 2007</div>
+             <div class="push3">Privacidad</div>
+             <div>Términos</div>
+             <div class="c4">Configuración</div>
+       </div>
+
+    </body>
+</html>
